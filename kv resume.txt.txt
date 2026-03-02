@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .resume {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <img src="data:image/jpeg;base64,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" alt="Profile Image" width="100">
+        <h1>krishna verma</h1>
+        <p><strong>Email:</strong> <a href="mailto:johndoe@example.com">krishnavema@gmail.com</a></p>
+        <p><strong>Phone:</strong> +919209628369</p>
+        <hr>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>B.Tech cse (ai&ml) </td>
+                <td>SBJ institute of technology </td>
+                <td>2029</td>
+            </tr>
+        </table>
+        <h2>Skills</h2>
+        <ul>
+            <li>speciliased in NumPy and PyTorch</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h2>Experience</h2>
+        <p>Intern @ TCS Corp (2025)</p>
+    </div>
+</body>
+</html>
